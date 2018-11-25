@@ -3,6 +3,17 @@
 
 ## Getting started
 
+Smartassets change the react native image load logic by hook defaultAsset method.
+
+
+Smartassets let your app can load image form apk(ipa in iOS case) and filesystem with smart choose.
+
+
+
+<img src="https://github.com/smallnew/react-native-smartassets/raw/master/Sample/before_smart.jpg" width="350" alt="before"></img>
+      <img src="https://github.com/smallnew/react-native-smartassets/raw/master/Sample/after_smart.png" width="390" alt="after"></img>
+ 
+
 `$ npm install --save https://github.com/smallnew/react-native-smartassets.git`
 
 ### Mostly automatic installation
