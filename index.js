@@ -51,7 +51,6 @@ var SmartAssets= {
              } else {
                  let iOSAsset = this.scaledAssetURLNearBundle();
                  let isFileExist =  Smartassets.isFileExist(iOSAsset.uri);
-                 isFileExist = false;
                  if(isFileExist) {
                      return iOSAsset;
                  }else{
