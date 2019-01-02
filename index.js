@@ -1,4 +1,4 @@
-import { NativeModules } from 'react-native';
+import { NativeModules, Platform} from 'react-native';
 import AssetSourceResolver from "react-native/Libraries/Image/AssetSourceResolver";
 const { Smartassets } = NativeModules;
 let iOSRelateMainBundlePath='';
