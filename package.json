@@ -1,8 +1,8 @@
 
 {
   "name": "react-native-smartassets",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Smart load react native image resource both from apk(ipa) and jsbundle Dir.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -10,7 +10,9 @@
 RCT_EXPORT_MODULE(Smartassets)
 
 RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(isFileExist:(NSString *)filePath){
-    filePath = [filePath substringFromIndex:6];
+    if([filePath hasPrefix:@"file://"]){
+      filePath = [filePath substringFromIndex:6];
+    }
     NSFileManager *fileManager = [NSFileManager defaultManager];
     BOOL fileExists = [fileManager fileExistsAtPath:filePath];
     return @(fileExists);
@@ -39,5 +41,5 @@ RCT_EXPORT_METHOD(travelDrawable:(NSString *)bundlePath callBack:(RCTResponseSen
 }
 
 @end
-  
+
 

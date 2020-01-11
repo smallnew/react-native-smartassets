@@ -14,7 +14,7 @@ Smartassets let your app can load image form apk(ipa in iOS case) and filesystem
       <img src="https://github.com/smallnew/react-native-smartassets/raw/master/Sample/after_smart.png" width="390" alt="after"></img>
  
 
-`$ npm install --save https://github.com/smallnew/react-native-smartassets.git`
+`$ npm install --save react-native-smartassets`
 
 ### Mostly automatic installation
 
