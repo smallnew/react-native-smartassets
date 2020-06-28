@@ -35,7 +35,9 @@ var SmartAssets= {
 			}
 			if (Platform.OS === 'android') {
 				if(this.isLoadedFromFileSystem()||bundlePath!=null){//begin assets ios begin drawable android
-					this.jsbundleUrl = bundlePath;
+					if(bundlePath!=null){
+					  this.jsbundleUrl = bundlePath;
+				    }
 					let resolvedAssetSource = this.drawableFolderInBundle();
 					let resPath = resolvedAssetSource.uri;
 					if(drawablePathInfos.includes(resPath)){//已经在bundle目录中有

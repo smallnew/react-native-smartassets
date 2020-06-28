@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-smartassets",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Smart load react native image resource both from apk(ipa) and jsbundle Dir.",
   "main": "index.js",
   "scripts": {
